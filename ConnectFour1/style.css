@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    color: white;
+}
+#current-player{
+    text-align: center;
+}
+#current-player p{
+    padding: 33px 0px;
+}
+#status{
+    font-size: 200%;
+}
+.board{
+    width: 700px;
+    background-color: lavender;
+    display: flex;
+    border-radius: 10px;
+    /* margin-top: 10%; */
+}
+.column{
+    width: 100px;
+    height: 570px;
+}
+.cell{
+    height: 90px;
+    width: 90px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 4px;
+}
+.player1{
+    background-color: coral;
+}
+.player2{
+    background-color: cornflowerblue;
+}
